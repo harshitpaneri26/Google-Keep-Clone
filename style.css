@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* header */
+
+.header {
+    position: sticky;
+    top: 0;
+    padding: 3rem;
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    box-shadow: 4px 5px 6px 8px rgb(252, 245, 245);
+}
+
+
+/* Keep Logo and text */
+
+.keep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.keep img {
+    width: 4.5rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+
+/* container */
+
+.container {
+    height: 5rem;
+    padding-right: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+/* Add Note button */
+
+#note_btn {
+    font-size: 1rem;
+    border: none;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    color: white;
+    background-color: #427cac;
+    box-shadow: 4px 5px 6px 8px rgb(252, 245, 245);
+}
+
+
+/* Note section */
+
+.note {
+    box-shadow: 7px 8px 5px 3px rgb(236 236 236);
+    margin: 2.5rem;
+    width: 18rem;
+    height: auto;
+    display: inline-block;
+}
+
+.operation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1.5rem;
+    gap: 0.8rem;
+    background-color: #fbfafb;
+}
+
+.text_write {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* content */
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main_area {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 12rem;
+    padding: 0.6rem;
+    font-size: 1.2rem;
+    resize: none;
+    background-color: #fbfafb;
+}
+
+.hidden {
+    display: none;
+}
+
+#text_area {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 12rem;
+    padding: 0.6rem;
+    font-size: 1.2rem;
+    resize: none;
+    background-color: whitesmoke;
+}
+
+
+/* Icons */
+
+.fa-solid {
+    cursor: pointer;
+}
+
+.note_section {
+    display: flex;
+}
+
+.icon-cog {
+    color: rgb(0, 0, 0);
+    transition: 0.2s all;
+}
+
+.icon-cog:hover {
+    color: rgb(30, 43, 219);
+}
